@@ -11,27 +11,15 @@
 3. mv.
 
 Все функции эмулятора должны быть покрыты тестами, а для каждой из поддерживаемых команд необходимо написать 3 теста.
-# Установка
-Перед началом работы с программой требуется скачать репозиторий и необходимую библиотеку для тестов. Для этого можно воспользоваться командами ниже.
-```Bash
-git clone https://github.com/DrTECHNIC/Shell_Emulator
-```
-```Bash
-pip install -U pytest
-```
-# Запуск
-Перед запуском необходимо клонировать репозиторий в среду разработки.
 
+# Запуск
 Обязательно прописать путь к файловой системе в config.json.
 
 Запуск main.py:
 ```Bash
-py main.py config.json 
+python3 shellemulator.py
 ```
-Запуск тестов
-```Bash
-pytest -v test.py
-```
+
 # Команды
 ``` ls <path> ``` - Список файлов и директорий
 
@@ -41,17 +29,17 @@ pytest -v test.py
 
 ``` touch <name> ``` - Создание файла
 
-``` cat <path> ``` - Вывод содержимого файла
+``` mv <source> <destination> ``` - Перемещение файла
+
+``` mkdir <name> ``` - Создание новой директории
 # Тесты
-## ls
-![](https://github.com/DrTECHNIC/Shell_Emulator/blob/main/ls.png)
-## cd
-![](https://github.com/DrTECHNIC/Shell_Emulator/blob/main/cd.png)
+## ls и cd
+![](https://github.com/teradex124/KU1/blob/main/ls%20and%20cd.png)
 ## exit
-![](https://github.com/DrTECHNIC/Shell_Emulator/blob/main/exit.gif)
+![](https://github.com/teradex124/KU1/blob/main/ls%20and%20cd.png)
 ## touch
-![](https://github.com/DrTECHNIC/Shell_Emulator/blob/main/tou%D1%81%D1%80.png)
-## cat
-![](https://github.com/DrTECHNIC/Shell_Emulator/blob/main/cat.png)
-## Общие тесты через pytest
-![](https://github.com/DrTECHNIC/Shell_Emulator/blob/main/pytest.png)
+![](https://github.com/teradex124/KU1/blob/main/ls%20and%20cd.png)
+## mkdir
+![](https://github.com/teradex124/KU1/blob/main/ls%20and%20cd.png)
+## mv
+![](https://github.com/teradex124/KU1/blob/main/ls%20and%20cd.png)
